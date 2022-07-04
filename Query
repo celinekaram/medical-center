@@ -64,3 +64,10 @@ FROM Employee;
 
 SELECT AVG(salary)
 FROM employee
+
+
+CREATE TABLE Users(
+	username VARCHAR(50) PRIMARY KEY,
+	password VARCHAR(50),
+	properties VARCHAR(1), --'a' for admin, 'd' for doctor, 'c' for client
+);
