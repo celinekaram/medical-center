@@ -1,0 +1,66 @@
+UPDATE Departements
+SET sup_id=1
+WHERE dep_id=1;
+
+INSERT INTO Departements VALUES (2,NULL,'Coronary',2);
+INSERT INTO Departements VALUES (3,NULL,'General surgery',3);
+INSERT INTO Departements VALUES (4,NULL,'Radiology',3);
+INSERT INTO Departements VALUES (5,NULL,'Neurology',4);
+INSERT INTO Departements VALUES (6,NULL,'Pediatric',4);
+
+UPDATE Departements
+SET sup_id=2
+WHERE dep_id=2;
+
+UPDATE Departements
+SET sup_id=3
+WHERE dep_id=3;
+
+UPDATE Departements
+SET sup_id=4
+WHERE dep_id=4;
+
+UPDATE Departements
+SET sup_id=5
+WHERE dep_id=5;
+
+UPDATE Departements
+SET sup_id=6
+WHERE dep_id=6;
+
+INSERT INTO Position VALUES('Doctor');
+INSERT INTO Position VALUES('Nurse');
+INSERT INTO Position VALUES('CEO');
+INSERT INTO Position VALUES('Receptionist');
+INSERT INTO Position VALUES('General manager');
+INSERT INTO Position VALUES('Technician');
+
+INSERT INTO Employee VALUES(1,'Doctor','Celine',71000000,50,'2:00',2000,3);
+INSERT INTO Employee VALUES(2,'Doctor','Eliana',71000001,60,'3:00',2050,3);
+INSERT INTO Employee VALUES(3,'Doctor','Vahe',71000002,70,'4:00',2100,5);
+INSERT INTO Employee VALUES(4,'Doctor','Georges',71000003,50,'1:00',1900,4);
+INSERT INTO Employee VALUES(5,'Doctor','Mark',71000004,60,'5:00',2000,6);
+INSERT INTO Employee VALUES(6,'Doctor','Kevin',71000005,50,'3:00',1800,2);
+INSERT INTO Employee VALUES(7,'Doctor','Nour',71000006,55,'2:00',2050,1);
+INSERT INTO Employee VALUES(8,'Doctor','Joe',71000007,70,'1:00',2050,1);
+
+
+SELECT TOP 3 * FROM Departements;
+
+SELECT emp_name AS name
+FROM Employee;
+
+SELECT distinct dep_id FROM Employee;
+
+
+
+SELECT COUNT(dep_id)
+FROM Employee;
+
+SELECT SUM(salary)
+FROM Employee;
+
+
+
+SELECT AVG(salary)
+FROM employee
