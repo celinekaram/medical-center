@@ -128,3 +128,43 @@
 --INSERT INTO Users VALUES ('Jane','12345456','c');
 --INSERT INTO Users VALUES ('Marc Hamouch','12345','c');
 
+--INSERT INTO Suppliers VALUES(301, 'Mersaco')
+--INSERT INTO Suppliers VALUES(302, 'Megapharmaplus')
+--INSERT INTO Suppliers VALUES(303, 'Pharmamed')
+--INSERT INTO Suppliers VALUES(304, 'AlamPharm')
+--INSERT INTO Suppliers VALUES(305, 'FDC Distribution Center')
+--INSERT INTO Suppliers VALUES(306, 'Alpha-Tech')
+
+
+
+--INSERT INTO Medications VALUES('Amlodipine', 301)
+--INSERT INTO Medications VALUES('Omeprazole', 301)
+--INSERT INTO Medications VALUES('Sertraline', 302)
+--INSERT INTO Medications VALUES('Fluoxetine', 305)
+--INSERT INTO Medications VALUES('Potassium', 304)
+--INSERT INTO Medications VALUES('Aspirin', 303)
+--INSERT INTO Medications VALUES('Atenolol', 305)
+--INSERT INTO Medications VALUES('Zolpidem', 306)
+--INSERT INTO Medications VALUES('Hydroxyzine', 302)
+--INSERT INTO Medications VALUES('Pyralvex', 305)
+--INSERT INTO Medications VALUES('Maalox Plus', 301)
+--INSERT INTO Medications VALUES('Belmazol', 303)
+--INSERT INTO Medications VALUES('Betadine', 302)
+--INSERT INTO Medications VALUES('Fucidine', 304)
+--INSERT INTO Medications VALUES('Paracetamol', 304)
+--INSERT INTO Medications VALUES('Hydrocodone', 405)
+--INSERT INTO Medications VALUES('Xanax', 406)
+--INSERT INTO Medications VALUES('Losartan', 406)
+--INSERT INTO Medications VALUES('Antibiotics', 406)
+--INSERT INTO Medications VALUES('Antihistamine', 302)
+--INSERT INTO Medications VALUES('Panadol', 301)
+--INSERT INTO Medications VALUES('Antihistamine', 301)
+--INSERT INTO Medications VALUES('Lexotanil', 304)
+--INSERT INTO Medications VALUES('Depakine', 304)
+--INSERT INTO Medications VALUES('Ditrospam', 303)
+--INSERT INTO Medications VALUES('Clopidogrel', 306)
+--INSERT INTO Medications VALUES('Peramivir', 303)
+--INSERT INTO Medications VALUES('Advil', 304)
+--INSERT INTO Medications VALUES('ibuprofen', 302)
+--INSERT INTO Medications VALUES('Naproxen', 302)
+
