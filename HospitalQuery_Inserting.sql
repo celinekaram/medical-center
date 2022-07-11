@@ -162,3 +162,49 @@
 --INSERT INTO DoctorSchedule VALUES('2022-09-17', 5, '10:30:00', '11:00:00');
 --INSERT INTO DoctorSchedule VALUES('2022-09-17', 4, '10:30:00', '11:00:00');
 --INSERT INTO DoctorSchedule VALUES('2022-09-16', 4, '11:00:00', '11:30:00');
+
+--ALTER TABLE Medications
+--ADD quantity INT
+
+--UPDATE Medications
+--SET quantity=75
+--WHERE supplier_id=305
+
+--UPDATE Medications
+--SET quantity=150
+--WHERE supplier_id=301 OR supplier_id=302 OR supplier_id=304
+
+--UPDATE Medications
+--SET quantity=100
+--WHERE supplier_id=306 OR supplier_id=303
+
+--ALTER TABLE Medications
+--ADD price_in_LBP INT
+
+--UPDATE Medications
+--SET price_in_LBP=15000
+--WHERE med_name='Aspirin' OR med_name='Panadol' OR supplier_id=304
+
+--UPDATE Medications
+--SET price_in_LBP=35000
+--WHERE supplier_id=306
+
+--UPDATE Medications
+--SET price_in_LBP=43000
+--WHERE med_name='Sertraline' OR med_name='Peramivir' OR med_name='Ditrospam' OR supplier_id=305
+
+--UPDATE Medications
+--SET price_in_LBP=45000
+--WHERE med_name='Omeprazole' OR med_name='Hydroxyzine' OR med_name='Amlodipine'
+
+--UPDATE Medications
+--SET price_in_LBP=23000
+--WHERE med_name='Antihistamine' OR med_name='Belmazol' 
+
+--UPDATE Medications
+--SET price_in_LBP=18000
+--WHERE med_name='Betadine' 
+
+--UPDATE Medications
+--SET price_in_LBP=32000
+--WHERE med_name='ibuprofen' OR med_name='Maalox Plus' OR med_name='Naproxen' 
