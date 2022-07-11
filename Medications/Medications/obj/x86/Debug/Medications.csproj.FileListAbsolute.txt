@@ -1,0 +1,7 @@
+D:\DownloadedData\Project CS\Medications\Medications\bin\Debug\Medications.exe
+D:\DownloadedData\Project CS\Medications\Medications\bin\Debug\Medications.pdb
+D:\DownloadedData\Project CS\Medications\Medications\obj\x86\Debug\Medications.Form1.resources
+D:\DownloadedData\Project CS\Medications\Medications\obj\x86\Debug\Medications.Properties.Resources.resources
+D:\DownloadedData\Project CS\Medications\Medications\obj\x86\Debug\Medications.csproj.GenerateResource.Cache
+D:\DownloadedData\Project CS\Medications\Medications\obj\x86\Debug\Medications.exe
+D:\DownloadedData\Project CS\Medications\Medications\obj\x86\Debug\Medications.pdb
