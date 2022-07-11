@@ -89,29 +89,6 @@
 --INSERT INTO Rooms VALUES (12,4,8);
 --INSERT INTO Rooms VALUES (13,4,9);
 
-
-
---INSERT INTO Appointments VALUES (1,1,1,'10-7-2022','2:00');
---INSERT INTO Appointments VALUES (1,2,1,'10-7-2022','3:00');
---INSERT INTO Appointments VALUES (2,3,2,'11-7-2022','12:00');
---INSERT INTO Appointments VALUES (2,4,2,'12-7-2022','1:00');
---INSERT INTO Appointments VALUES (3,5,3,'11-7-2022','2:00');
---INSERT INTO Appointments VALUES (3,6,3,'10-7-2022','8:00');
---INSERT INTO Appointments VALUES (4,7,4,'10-7-2022','10:00');
---INSERT INTO Appointments VALUES (4,1,5,'11-7-2022','11:00');
---INSERT INTO Appointments VALUES (5,2,6,'11-7-2022','3:00');
---INSERT INTO Appointments VALUES (6,3,7,'12-7-2022','9:00');
---INSERT INTO Appointments VALUES (6,2,8,'13-7-2022','8:00');
---INSERT INTO Appointments VALUES (5,3,8,'13-7-2022','12:00');
---INSERT INTO Appointments VALUES (5,4,7,'13-7-2022','1:00');
---INSERT INTO Appointments VALUES (1,5,6,'14-7-2022','8:00');
---INSERT INTO Appointments VALUES (3,6,9,'14-7-2022','9:00');
---INSERT INTO Appointments VALUES (7,7,10,'14-7-2022','10:00');
---INSERT INTO Appointments VALUES (8,1,11,'14-7-2022','10:00');
---INSERT INTO Appointments VALUES (2,2,11,'15-7-2022','2:00');
---INSERT INTO Appointments VALUES (6,3,12,'15-7-2022','3:00');
-
-
 --INSERT INTO Users VALUES ('Kevin','12345','a');
 --INSERT INTO Users VALUES ('Celine','1234','d');
 --INSERT INTO Users VALUES ('Vahe','123456','c');
@@ -134,8 +111,6 @@
 --INSERT INTO Suppliers VALUES(304, 'AlamPharm')
 --INSERT INTO Suppliers VALUES(305, 'FDC Distribution Center')
 --INSERT INTO Suppliers VALUES(306, 'Alpha-Tech')
-
-
 
 --INSERT INTO Medications VALUES('Amlodipine', 301)
 --INSERT INTO Medications VALUES('Omeprazole', 301)
@@ -168,3 +143,22 @@
 --INSERT INTO Medications VALUES('ibuprofen', 302)
 --INSERT INTO Medications VALUES('Naproxen', 302)
 
+--INSERT INTO Appointment VALUES (1, 5, 1, '2022-09-16', '09:00:00', '09:30:00');
+--INSERT INTO Appointment VALUES (2, 3, 2, '2022-09-16', '09:00:00', '9:30:00');
+--INSERT INTO Appointment VALUES (5, 2, 3, '2022-09-16', '09:00:00', '9:30:00');
+--INSERT INTO Appointment VALUES (2,3,2, '2022-09-17', '10:00:00', '10:30:00');
+--INSERT INTO Appointment VALUES (5,2,4, '2022-09-16', '9:30:00', '10:00:00');
+--INSERT INTO Appointment VALUES (1,3,2, '2022-09-16', '12:00:00', '12:30:00');
+--INSERT INTO Appointment VALUES (4,7,4, '2022-09-18', '13:00:00', '13:30:00');
+--INSERT INTO Appointment VALUES (5,3, 8, '2022-09-19', '11:30:00', '12:00:00');
+
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 1, '9:30:00', '10:00:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 1, '10:00:00', '10:30:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 2, '11:00:00', '11:30:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-17', 4, '12:00:00', '12:30:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-17', 4, '12:30:00', '13:00:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 5, '10:00:00', '10:30:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 5, '11:00:00', '11:30:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-17', 5, '10:30:00', '11:00:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-17', 4, '10:30:00', '11:00:00');
+--INSERT INTO DoctorSchedule VALUES('2022-09-16', 4, '11:00:00', '11:30:00');
