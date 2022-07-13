@@ -24,5 +24,11 @@ namespace WinFormsApp1
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-D9LP0SJ\\SQLEXPRESS;Initial Catalog=medicalCenter;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("select department_name, floor_nb from Departements", con);
         }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            DrList DrListForm = new DrList();
+            DrListForm.Show();
+        }
     }
 }
