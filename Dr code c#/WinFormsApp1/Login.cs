@@ -18,7 +18,7 @@ namespace WinFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             /// trying to login 
             //1- step is to take username and password 
@@ -27,10 +27,10 @@ namespace WinFormsApp1
 
             //2- making request to database to see if users exist and the type of the user//
             //Connection String   
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-D9LP0SJ\\SQLEXPRESS;Initial Catalog=medicalCenter;Integrated Security=True");
-            SqlCommand cmd = new SqlCommand("select * from Users where username=@username and password =@password", con);
-            cmd.Parameters.AddWithValue("@username", textBox1.Text);
-            cmd.Parameters.AddWithValue("@password", textBox2.Text);
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-16N9DM3\\SQLEXPRESS;Initial Catalog=test2;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("select * from Users where username=@UserName and password =@Password", con);
+            cmd.Parameters.AddWithValue("@UserName", textBox1.Text);
+            cmd.Parameters.AddWithValue("@Password", textBox2.Text);
             ///
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
@@ -42,29 +42,25 @@ namespace WinFormsApp1
             if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("Successfully loged in");
+                foreach(DataRow row in dt.Rows)
+                {
+                    if (row["isadmin"].ToString() == "True")
+                    {
+                        //if admin redirect to admin form 
+                        Admin adminForm = new Admin(textBox1.Text);
+                        adminForm.Show();
+                       
+                    }
+                    else
+                    {
+                        //if user redirect to userform
+                        Client clientForm = new Client(textBox1.Text);
+                        clientForm.Show();
+                    }
 
-                /*                foreach (DataRow row in dt.Rows)
-                                {
-                                    if (row["isadmin"].ToString() == "True")
-                                    {
-                                        //if admin redirect to admin form 
-                                        Admin adminForm = new Admin(textBox1.Text);
-                                        adminForm.Show();
-
-                                    }
-                                    else
-                                    {
-                                        //if user redirect to userform
-                                        Client clientForm = new Client(textBox1.Text);
-                                        clientForm.Show();
-                                    }
-
-                                }
-                                this.Hide();
-
-                */
+                }
+                this.Hide();
             }
-
             else
             {
                 // if not a user in database can not redirect to any form// 
@@ -79,5 +75,4 @@ namespace WinFormsApp1
             registerForm.Show();
         }
     }
-}        
-
+}
