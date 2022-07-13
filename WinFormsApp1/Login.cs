@@ -43,26 +43,32 @@ namespace WinFormsApp1
             {
                 MessageBox.Show("Successfully loged in");
 
-                /*                foreach (DataRow row in dt.Rows)
+                foreach (DataRow row in dt.Rows)
                                 {
-                                    if (row["isadmin"].ToString() == "True")
+                                if (row["properties"].ToString() == "a")
                                     {
-                                        //if admin redirect to admin form 
-                                        Admin adminForm = new Admin(textBox1.Text);
-                                        adminForm.Show();
+                        //if admin redirect to admin form 
+                        MessageBox.Show("Welcome Admin!");
+                        Admin adminForm = new Admin(textBox1.Text);
+                        adminForm.Show();
 
                                     }
-                                    else
+                    else if (row["properties"].ToString() == "d")
+                    {
+                        //if user redirect to userform
+                        Doctor doctorForm = new Doctor(textBox1.Text);
+                        doctorForm.Show();
+                    }
+                    else if(row["properties"].ToString() == "c")
                                     {
                                         //if user redirect to userform
-                                        Client clientForm = new Client(textBox1.Text);
-                                        clientForm.Show();
+                                        Patient patientForm = new Patient(textBox1.Text);
+                                        patientForm.Show();
                                     }
 
                                 }
+                                
                                 this.Hide();
-
-                */
             }
 
             else
@@ -80,4 +86,3 @@ namespace WinFormsApp1
         }
     }
 }        
-

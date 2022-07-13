@@ -17,24 +17,27 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
+
             Registeration();
         }
-
         void Registeration()
         {
             //1- step is to take username and password 
             string username = textBox1.Text.ToString();
             string password = textBox2.Text.ToString();
-            
+            string property = "c";
             //MODIFY DATASOURCE
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-D9LP0SJ\\SQLEXPRESS; Initial Catalog=medical center;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-D9LP0SJ\\SQLEXPRESS;Initial Catalog=medicalCenter;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("insert into Users values(@p1,@p2,@p3)", con);
             cmd.Parameters.AddWithValue("@p1", textBox1.Text);
             cmd.Parameters.AddWithValue("@p2", textBox2.Text);
-            cmd.Parameters.AddWithValue("@p3", 'c');
+            cmd.Parameters.AddWithValue("@p3", property);
             int i = 0;
+            con.Open();
             try
             {
                 i = cmd.ExecuteNonQuery();
@@ -49,9 +52,7 @@ namespace WinFormsApp1
                 MessageBox.Show("Registration successfully completed !!");
             }
             else
-                MessageBox.Show("bad request try again later !1");
-            //////////////////////////////////////////
+                MessageBox.Show("bad request try again later !");
         }
-
     }
 }

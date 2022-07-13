@@ -1,7 +1,7 @@
 ﻿
-namespace WinFormsApp1.WinFormsApp1
+namespace WinFormsApp1
 {
-    partial class Form1
+    partial class Doctor
     {
         /// <summary>
         /// Required designer variable.

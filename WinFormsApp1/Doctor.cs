@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1.WinFormsApp1
+namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Doctor : Form
     {
-        public Form1()
+        public Doctor(string Username)
         {
             InitializeComponent();
         }
