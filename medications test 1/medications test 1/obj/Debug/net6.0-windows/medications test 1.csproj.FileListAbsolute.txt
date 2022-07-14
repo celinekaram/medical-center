@@ -1,0 +1,24 @@
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.csproj.AssemblyReference.cache
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications_test_1.Form1.resources
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.csproj.GenerateResource.cache
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.AssemblyInfoInputs.cache
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.AssemblyInfo.cs
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.csproj.CoreCompileInputs.cache
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\medications test 1.exe
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\medications test 1.deps.json
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\medications test 1.runtimeconfig.json
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\medications test 1.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\medications test 1.pdb
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.csproj.CopyComplete
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\refint\medications test 1.dll
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.pdb
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\medications test 1.genruntimeconfig.cache
+C:\Users\Psychee\source\repos\medications test 1\medications test 1\obj\Debug\net6.0-windows\ref\medications test 1.dll
